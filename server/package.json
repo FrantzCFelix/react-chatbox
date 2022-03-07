@@ -1,0 +1,49 @@
+{
+  "name": "react-chatbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "vite",
+    "watch": "nodemon server.js",
+    "build": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrantzCFelix/react-chatbox.git"
+  },
+  "keywords": [],
+  "author": "Frantz Felix",
+  "license": "ISC",
+  "bugs": {
+    "url": "git+https://github.com/FrantzCFelix/react-chatbox.git/issues"
+  },
+  "homepage": "git+https://github.com/FrantzCFelix/react-chatbox.git#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.5",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "eslint": "^7.22.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "postcss": "^8.2.8",
+    "postcss-custom-properties": "^11.0.0",
+    "postcss-import": "^14.0.0",
+    "postcss-nested": "^5.0.5",
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^2.0.4",
+    "vite": "^2.1.2"
+  }
+}
